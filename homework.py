@@ -1,4 +1,10 @@
-from math import pi
+"""
+Brooke
+02/28/18
+hw1
+"""
+
+from math import pi 
 import random
 
 def circle_area(radius):
