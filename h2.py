@@ -23,10 +23,13 @@ def is_between(x,y,z):
     Return: true if x <= y <=z, false otherwise"""
 
     if x <= y <= z:
-        return true
+        return True
     else:
-        false
+        return False
 # is_between(1, 2, 3)
+# is_between(9,8,7)
+# is_between(3, 3, 3)
+
 
 def find_index(letter, word):
     """find index of first occurence of letter in word.
@@ -37,7 +40,7 @@ def find_index(letter, word):
     for letter in word:
         letter.find(word)
     return word
-find_index('d', 'dog')
+#find_index('d', 'dog')
 
 
 def remove_leading_blanks(sentence):
@@ -52,9 +55,11 @@ def make_title(word_list):
     word_list: list of strings
     returns: copy of word_list where all original words
     are capitalized"""
-
-    word_list.upper
-    return word_list
+    capitalized_word_list = [ ]
+    for word in word_list:
+        capword= word.upper()
+        capitalized_word_list.append(capword)
+    return capitalized_word_list
 
 # make_title(['dog', 'cat'])
 # make_title(['today', 'is', 'friday'])
