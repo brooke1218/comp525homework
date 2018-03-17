@@ -74,7 +74,7 @@ def shorter_than_5(word_list):
     for word in word_list:
         if len(word_list) < 5:
     return word_list
-
+ # 
 # shorter_than_5([umbrella, tree, coconut, cat])
 # shorter_than_5([purse, Hi, two])
 # shorter_than_5([cake, lemon, fan, can])
