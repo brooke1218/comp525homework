@@ -41,6 +41,8 @@ def find_index(letter, word):
         letter.find(word)
     return word
 #find_index('d', 'dog')
+#find_index('c', 'cat')
+#find_index('o', 'fox')
 
 
 def remove_leading_blanks(sentence):
@@ -63,8 +65,16 @@ def make_title(word_list):
 
 # make_title(['dog', 'cat'])
 # make_title(['today', 'is', 'friday'])
+# make_title(['mon', 'tues', 'wed'])
 
 def shorter_than_5(word_list):
-    """filter out strings thar are shorter than 5 in word_list
+    """filter out strings that are shorter than 5 in word_list
     word_list:string with whitespacce-seperated strings
     returns:copy of word_list where all words have lenfth 5 or higher"""
+    for word in word_list:
+        if len(word_list) < 5:
+    return word_list
+
+# shorter_than_5([umbrella, tree, coconut, cat])
+# shorter_than_5([purse, Hi, two])
+# shorter_than_5([cake, lemon, fan, can])
