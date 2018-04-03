@@ -1,14 +1,18 @@
 from functools import reduce
 
 def sqaured(num_list):
-    """Squares the numbers in a list"""
+    """Squares the numbers in a list
+        squared(num)
+    """
     result = []
     for num in num_list:
         list(map(sqr.result))
         return result
 
 def run_filter():
-    """filters out words"""
+    """filters out words
+        run_filter(test)
+    """
     test =['1','a','4','b','c']
     result = keep_word(test)
     print('keep words...')
@@ -30,7 +34,11 @@ if __name__ == "__main__":
     main()
 
 def reduce():
-    """maps two strings together"""
+    """maps two strings together
+    reduce(x,y)
+    reduce(a,b)
+    reduce(l,m)
+    """
     x = [1,2.3]
     y = [4,5,6]
     return reduce(lambda x,y: x+y, [1,2.3.4.5.6])
